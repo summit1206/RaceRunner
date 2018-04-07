@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>RaceRunner would like to access your location in order to record your run(s). Background use of location allows you to use other apps while RaceRunner is recording run(s).</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>RaceRunner would like to access your location in order to record your run(s). Background use of location allows you to use other apps while RaceRunner is recording run(s).</string>
+	<key>NSLocationUsageDescription</key>
+	<string>RaceRunner would like to access your location in order to record your run(s).</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>RaceRunner</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>com.topografix.gpx</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSHandlerRank</key>
+			<string>Alternate</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.topografix.gpx</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.18</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>10</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>3835fee2cf704d70edbfdc3210412d698fac6f91</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Answers</string>
+			</dict>
+		</array>
+	</dict>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.healthcare-fitness</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCalendarsUsageDescription</key>
+	<string>RaceRunner would like to access your Calendars.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>RaceRunner would like to access your Camera.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>RaceRunner would like to access your location in order to record your run(s). Background use of location allows you to use other apps while RaceRunner is recording run(s).</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>RaceRunner would like to access your Microphone.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>RaceRunner would like to access your Photo.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>RaceRunner would like to access your Photo.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>Launch Screen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.xml</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>GPS Exchange Format (GPX)</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.topografix.gpx</string>
+			<key>UTTypeReferenceURL</key>
+			<string>http://www.topografix.com/GPX/1/1</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>gpx</string>
+				</array>
+				<key>public.mime-type</key>
+				<string>application/gpx+xml</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
